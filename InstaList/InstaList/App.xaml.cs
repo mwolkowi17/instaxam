@@ -10,7 +10,7 @@ namespace InstaList
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new NaviList());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
